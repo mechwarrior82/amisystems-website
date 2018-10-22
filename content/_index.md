@@ -26,12 +26,20 @@ menu:
         name: ""
 
 intro:
-    header: "header here?"
-    text: "sub text here?"
+    header: ""
+    text: "Utilizing Global Strategies for Global Markets"
 
 about:
     header: "About Advanced Microcontrols, Inc."
     text: '<p>AMI (Advanced Microcontrols, Inc.) specializes in the design and manufacturing of quality controls and other innovative electronic devices for the elevator contractor. we constantly see ways to incorporate the latest technology into all of our products to make them more durable and/or easier to use. Because of our dedication to quality and innovation, we at AMI can be depended on to supply reliable products at competitive prices.</p>'
+
+download:
+    rename: "Links"
+    header: "Download manuals"
+    text: '<p>You can download product manuals for free from the Github page.</p>
+    <a href="..\manuals\satellite_C75D-C7232.pdf" class="btn btn-default btn-lg">Download Manual 1</a>
+    <a href="..\manuals\satellite_C75D-C7232.pdf" class="btn btn-default btn-lg">Download Manual 2</a>
+    '
 
 download:
     rename: "Links"
