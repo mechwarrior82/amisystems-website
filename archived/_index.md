@@ -41,14 +41,6 @@ download:
     <a href="..\manuals\satellite_C75D-C7232.pdf" class="btn btn-default btn-lg">Download Manual 2</a>
     '
 
-download:
-    rename: "Links"
-    header: "Download manuals"
-    text: '<p>You can download product manuals for free from the Github page.</p>
-    <a href="..\manuals\satellite_C75D-C7232.pdf" class="btn btn-default btn-lg">Download Manual 1</a>
-    <a href="..\manuals\satellite_C75D-C7232.pdf" class="btn btn-default btn-lg">Download Manual 2</a>
-    '
-
 contact:
     header: "Contact Information"
     text: '<p>Please feel free to contact us with questions, information request, or quote request.

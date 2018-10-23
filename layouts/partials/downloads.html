@@ -1,0 +1,16 @@
+<div id="downloads">
+    <div id="three-column" class="container">
+    {{ with .Site.Params.downloads }}
+      <div class="title">
+        <h2>{{ .title }}</h2>
+        <span class="byline">{{ .subtitle }}</span>
+      </div>
+      {{ range .item }}
+      <div class="box{{ .weight }}">
+        <p>{{ .description | markdownify }}</p>
+        <a href={{ .url }} class="button button-alt">{{ .button_item_info }}</a>
+      </div>
+      {{ end }}
+    {{ end }}
+    </div>
+</div>

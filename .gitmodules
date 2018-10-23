@@ -1,3 +1,7 @@
 [submodule "themes/grayscale"]
 	path = themes/grayscale
 	url = https://github.com/runningstream/hugograyscale.git
+
+[submodule "themes/hugo-assembly"]
+path = themes/hugo-assembly
+url = https://github.com/salsysd/hugo-assembly.git

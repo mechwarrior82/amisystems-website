@@ -1,8 +1,107 @@
+theme = "hugo-assembly"
 baseURL = ""
-languageCode = "en-us"
+languageCode = "en-US"
 title = "Advanced Microcontrols, Inc."
-theme = "grayscale"
-[Params]
-    # Provide some metadata for search and indexing services
-    description = "A port of the Grayscale theme to Hugo"
-    author = "RunningStream"
+
+# Metadata
+[params]
+  author = "A Human Name"
+  description = "The description"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "Advanced Microcontrols, Inc."
+  byline = "Utilizing Global Strategies for Global Markets."
+
+[params.actions] # CTAs
+  enable = false
+  register = "CTA Now!"
+
+[params.logo] # CTAs
+  enable = true
+  url = "/images/logo.png"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  services = "Products"
+  welcome = "About"
+  downloads = "Downloads"
+  contact = "Contact Us"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Products"
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+  [[params.services.item]]
+    weight = "A"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Hatch Latch"
+    url = "http://hatchlatch.com"
+
+  [[params.services.item]]
+    weight = "B"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Solar Project"
+    url = "#"
+
+  [[params.services.item]]
+    weight = "C"
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Other Project"
+    url = "#"
+
+# Downloads
+[params.downloads]
+  enable = true
+  title = "Downloads"
+  subtitle = "subtitle"
+
+  [[params.downloads.item]]
+    weight = "A"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Download"
+    url = "/manuals/satellite_C75D-C7232.pdf"
+
+  [[params.downloads.item]]
+    weight = "B"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Download"
+    url = "/manuals/satellite_C75D-C7232.pdf"
+
+  [[params.downloads.item]]
+    weight = "C"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Download"
+    url = "/manuals/satellite_C75D-C7232.pdf"
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "About Us"
+  subtitle = "Utilizing Global Strategies for Global Markets"
+  description = "AMI (Advanced Microcontrols, Inc.) specializes in the design and manufacturing of quality controls and other innovative electronic devices for the elevator contractor. we constantly see ways to incorporate the latest technology into all of our products to make them more durable and/or easier to use. Because of our dedication to quality and innovation, we at AMI can be depended on to supply reliable products at competitive prices."
+  button_text = "button text"
+
+
+# Contact section
+[params.contact]
+  enable = false
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "2018 &copy; Advanced Microcontrols, Inc. | All rights reserved"
+  twitter = ""
+  facebook = ""
+  instagram = ""
+
